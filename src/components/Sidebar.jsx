@@ -9,6 +9,7 @@ function Sidebar() {
         { label: 'Modal', path: '/modal'},
         { label: 'Table', path: '/table'},
         { label: 'Counter', path: '/counter'},
+        { label: 'List select', path: '/list-select'},
     ];
 
     const renderedLinks = links.map(link => {
